@@ -1,29 +1,20 @@
-# -comedero-gatos-TEC-2025
+# Comedero Automático para Gatos — Equipo <comedero-gatos-TEC-2025>
 
-Descripción
+## Descripción
+Pequeño sistema que dispensa alimento automáticamente usando <Arduino/ESP32> y un motor.
 
-Pequeño sistema que dispensa alimento automáticamente usando ESP32 y un servomotor.
+## Funcionamiento
+- El motor entrega porciones controladas.
+- Se puede activar con botón o temporizador.
 
-Funcionamiento
+## Lista de Materiales
+Ver archivo en `bom/`.
 
-El motor entrega porciones controladas.
-
-Se activa automáticamente mediante un sensor PIR.
-
-Evita dispensar comida repetidamente mientras detecta movimiento continuo.
-
-Lista de Materiales
-
-Ver archivo en bom/.
-
-Diagrama y conexiones
-
-Imagen en docs/esquema.png.
-
-Código
-
-Código fuente en firmware/.
-
-Evidencia
-
-Fotos y video en media/.
+ ## Diagrama y conexiones
+ Imagen en `docs/esquema.png`.
+ 
+ ## Código
+  Código fuente en `firmware/`.
+  
+ ## Evidencia
+ Fotos y video en `media/`.
